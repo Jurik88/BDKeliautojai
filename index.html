@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-<!-- manto -->
 <html>
   <head>
     <!--Import Google Icon Font-->
@@ -13,8 +11,96 @@
   </head>
 
   <body>
-     <header></header>
-     <main></main>
+     <header>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="pazintines.html">Pažintinės</a></li>
+        <li><a href="poilsines.html">Poilsinės</a></li>
+        <li><a href="savaitgalio.html">Savaitgalio</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="ispudziai.html">Įspūdžiai</a></li>
+        <li><a href="patarimai.html">Patarimai</a></li>
+      </ul>
+      <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo" ><img src="images/Logo.jpg"></a>
+                    <ul id="bar1" class="right hide-on-med-and-down">
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">KELIONĖS</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">BLOGAS</a></li>
+                        <li><a href="kontaktai.html">KONTAKTAI</a></li>
+                      </ul>
+              </div>
+        </div>
+      </nav>
+     </header>
+     <main>
+        <div class="container">
+            <div class="row">
+              <div id="akcijos" class="col s2">
+                <h4>Akcijos</h4>
+              </div>
+              <div id="orai" class="col s10">
+                  <a target="_blank" href="http://www.booked.net/weather/rome-18087"><img src="https://w.bookcdn.com/weather/picture/2_18087_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
+                  <a target="_blank" href="http://www.booked.net/weather/new-york-18103"><img src="https://w.bookcdn.com/weather/picture/2_18103_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
+                  <a target="_blank" href="http://www.booked.net/weather/bangkok-18061"><img src="https://w.bookcdn.com/weather/picture/2_18061_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
+                  <a target="_blank" href="http://www.booked.net/weather/mexico-city-18199"><img src="https://w.bookcdn.com/weather/picture/2_18199_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>            
+              </div>
+      
+              <div id="pirmas" class="col s12">
+                <div id="cinqueTerre">
+                  <div id="kainaCT">
+                    Cinque Terre, Italija
+                    <br> 299 €
+                  </div>
+                  <div id="daugiauCT">
+                    <a href=cinqueTerre.html id="tekstas1">Daugiau</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div id="antras" class="col s12">
+                <div id="newYork">
+                  <div id="kainaNY">
+                    Niujorkas, JAV
+                    <br> 499 €
+                  </div>
+                  <div id="daugiauNY">
+                    <a href=nyc.html id="tekstas2">Daugiau</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div id="trecias" class="col s12">
+                <div id="jungtiniaiArabuEmyratai">
+                  <div id="kainaJAE">
+                    Dubajus, JAE
+                    <br> 359 €
+                  </div>
+                  <div id="daugiauJAE">
+                    <a href=jae.html id="tekstas3">Daugiau</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div id="ketvirtas" class="col s12">
+                <div id="juodkalnija">
+                  <div id="kainaJuodkalnija">
+                    Budva, Juodkalnija
+                    <br> 325 €
+                  </div>
+                  <div id="daugiauJuodkalnija">
+                    <a href=budva.html id="tekstas4">Daugiau</a>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+
+
+     </main>
      <footer></footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -22,93 +108,123 @@
     <script src="js/main.js"></script>
   </body>
   <body>
+      <!-- manto -->
     <div class="container">
         <div id="travelCosts">
            <div class="row">
             <div class="col s4">
                 Pazintine kelione
-                <span class="travelPrice">nuo 1299 Eur</span>
+                <span class="travelPrice">nuo 1299 €</span>
+                <div class="travelWrapper">
                 <img class="responsive-img" src="images/pazintineKelione1.jpg">
+               </div>
             </div>
             <div class="col s4">
                 Pazintine kelione2
-                <span class="travelPrice">nuo 1999 Eur</span>
+                <span class="travelPrice">nuo 1999 €</span>
+                <div class="travelWrapper">
                 <img class="responsive-img" src="images/pazintineKelione2.jpg">
+                </div>
             </div>
             <div class="col s4">
                 Pazintine kelione3
-                <span class="travelPrice">nuo 699 Eur</span>
-                <img class="responsive-img" src="images/pazintineKelione3.jpg">
+                <span class="travelPrice">nuo 699 €</span>
+                <div class="travelWrapper">
+                    <img class="responsive-img" src="images/pazintineKelione3.jpg">
+                </div>
             </div> 
         
         </div>   
         <div class="row">
             <div class="col s4">
                 Pazintine kelione4
-                <span class="travelPrice">nuo 2199 Eur</span>
+                <span class="travelPrice">nuo 2199 €</span>
+                <div class="travelWrapper">
                 <img class="responsive-img" src="images/pazintineKelione4.jpg">
+                </div>
             </div>
             <div class="col s4">
                 Pazintine kelione5
-                <span class="travelPrice">nuo 1599 Eur</span>
+                <span class="travelPrice">nuo 1599 €</span>
+                <div class="travelWrapper">
                 <img class="responsive-img" src="images/pazintineKelione5.jpg">
+               </div>
             </div>
             <div class="col s4">
                 Pazintine kelione6
-                <span class="travelPrice">nuo 1199 Eur</span>
+                <span class="travelPrice">nuo 1199 €</span>
+                <div class="travelWrapper">
                 <img class="responsive-img" src="images/pazintineKelione6.jpg">
+              </div>
+            
             </div> 
         </div>
     
     <div class="row">
         <div class="col s4">Poilsine kelione
-            <span class="travelPrice">nuo 599 Eur</span>
+            <span class="travelPrice">nuo 599 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/poilsineKelione1.jpg">
+             </div>
         </div>
         <div class="col s4">
             Poilsine kelione2
-            <span class="travelPrice">nuo 399 Eur</span>
+            <span class="travelPrice">nuo 399 €</span>
             <img class="responsive-img" src="images/poilsineKelione2.jpg">
         </div>
         <div class="col s4">
             Poilsine kelione3
-            <span class="travelPrice">nuo 599 Eur</span>
+            <span class="travelPrice">nuo 599 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/poilsineKelione3.jpg">
+           </div>
         </div> 
     </div>
 
     <div class="row">
         <div class="col s4">
             Poilsine kelione4
-            <span class="travelPrice">nuo 599 Eur</span>
+            <span class="travelPrice">nuo 599 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/poilsineKelione4.jpg">
+            </div>
         </div>
         <div class="col s4">
             Poilsine kelione5
-            <span class="travelPrice">nuo 799 Eur</span>
+            <span class="travelPrice">nuo 799 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/poilsineKelione5.jpg">
+            </div>
         </div>
         <div class="col s4">
             Poilsine kelione6
-            <span class="travelPrice">nuo 699 Eur</span>
+            <span class="travelPrice">nuo 699 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/poilsineKelione6.jpg">
+           </div>
         </div> 
     </div>
     <div class="row">
         <div class="col s4">
             Savaitgalio kelione
-            <span class="travelPrice">nuo 139 Eur</span>
+            <span class="travelPrice">nuo 139 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/savaitgalioKelione1.jpg">
+            </div>
         </div>
         <div class="col s4">
             Savaitgalio kelione2
-            <span class="travelPrice">nuo 99 Eur</span>
+            <span class="travelPrice">nuo 99 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/savaitgalioKelione2.jpg">
+           </div>
         </div>
         <div class="col s4">
             Savaitgalio kelione3
-            <span class="travelPrice">nuo 179 Eur</span>
+            <span class="travelPrice">nuo 179 €</span>
+            <div class="travelWrapper">
             <img class="responsive-img" src="images/savaitgalioKelione3.jpg">
+            </div>
         </div> 
     </div>
 

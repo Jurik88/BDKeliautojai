@@ -1,6 +1,240 @@
+/*Header*/
+/*#container{
+    width: 1250px;
+    margin: auto;
+}*/
+#headerContainer{
+    height: 70 px;
+    width: 100%;
+}
+#headerContainer ul{
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+#headerContainer ul li{
+    display: inline;
+    padding-left: 6px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    line-height: 70px; 
+}
+#headerContainer img{
+    height: 70px;
+    margin-left: 20px;
+}
+nav{
+    background-color:rgba(91, 104, 121, 0.3);
+}
+#dropdown1{
+    top: 65px !important;
+}
+#dropdown2{
+    top: 65px !important;
+}
+.brand-logo img{
+    width: 85px;
+}
+#bar1 a{
+    font-size: 23px !important;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.col {
+    border: 10px solid white;
+}
+
+#akcijos {
+    background-color: aqua;
+    height: 150;
+}
+
+#pirmas {
+    background-color: blue; 
+    padding: 0px;       
+}
+
+#antras {
+    background-color: blue;
+    padding: 0px;
+}
+
+#trecias {
+    background-color: blue;
+    padding: 0px;
+}
+
+#ketvirtas {
+    background-color: blue;     
+    padding: 0px;
+}
+
+#cinqueTerre {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/cinqueTerre1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#kainaCT {
+    position: absolute; /*jei cia dedama position, tai ir tevinis el turi turet position*/
+    top:20px;
+    left: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;    
+}
+
+#daugiauCT {
+    position: absolute; /*jei cia dedama position, tai ir tevinis el turi turet position*/
+    bottom:20px;
+    right: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#tekstas1 {
+    color: snow;
+}
+
+#tekstas1:hover {
+    color: violet;
+}
+
+#newYork {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/NYC1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#kainaNY {
+    position: absolute; /*jei cia dedama position, tai ir tevinis el turi turet position*/
+    top:20px;
+    left: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;    
+}
+
+#daugiauNY {
+    position: absolute; 
+    bottom:20px;
+    right: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#tekstas2 {
+    color: snow;
+}
+
+#tekstas2:hover {
+    color: violet;
+}
+
+#jungtiniaiArabuEmyratai {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/JAE1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#kainaJAE {
+    position: absolute; 
+    top:20px;
+    left: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;    
+}
+
+#daugiauJAE {
+    position: absolute; 
+    bottom:20px;
+    right: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#tekstas3 {
+    color: snow;
+}
+
+#tekstas3:hover {
+    color: violet;
+}
+
+#juodkalnija {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/budva1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#kainaJuodkalnija {
+    position: absolute; 
+    top:20px;
+    left: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;    
+}
+
+#daugiauJuodkalnija {
+    position: absolute; 
+    bottom:20px;
+    right: 50px;
+    background-color: royalblue;
+    padding: 18px;
+    color: white; 
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#tekstas4 {
+    color: snow;
+}
+
+#tekstas4:hover {
+    color: violet;
+}
+
+.checked {
+    color: orange;
+} 
+
 img.responsive-img{
     height: 170px;
-    width: 260px;
 }
 
 
@@ -18,3 +252,8 @@ img.responsive-img{
     opacity: 1.0;
     background-color: blue;
 }
+
+.travelWrapper {
+    width: 100%;
+}
+
