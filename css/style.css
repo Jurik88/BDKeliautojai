@@ -17,7 +17,7 @@
     padding-left: 6px;
     margin-right: 6px;
     text-transform: uppercase;
-    line-height: 70px; 
+    line-height: 70px;
 }
 #headerContainer img{
     height: 70px;
@@ -54,8 +54,8 @@ nav{
 }
 
 #pirmas {
-    background-color: blue; 
-    padding: 0px;       
+    background-color: blue;
+    padding: 0px;
 }
 
 #antras {
@@ -69,14 +69,14 @@ nav{
 }
 
 #ketvirtas {
-    background-color: blue;     
+    background-color: blue;
     padding: 0px;
 }
 
 #cinqueTerre {
     width: 100%;
     height: 300px;
-    background-image: url('../images/cinqueTerre1.jpg'); 
+    background-image: url('../images/cinqueTerre1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,8 +89,8 @@ nav{
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauCT {
@@ -99,7 +99,7 @@ nav{
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -115,7 +115,7 @@ nav{
 #newYork {
     width: 100%;
     height: 300px;
-    background-image: url('../images/NYC1.jpg'); 
+    background-image: url('../images/NYC1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -128,17 +128,17 @@ nav{
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauNY {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -154,7 +154,7 @@ nav{
 #jungtiniaiArabuEmyratai {
     width: 100%;
     height: 300px;
-    background-image: url('../images/JAE1.jpg'); 
+    background-image: url('../images/JAE1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,22 +162,22 @@ nav{
 }
 
 #kainaJAE {
-    position: absolute; 
+    position: absolute;
     top:20px;
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauJAE {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -193,7 +193,7 @@ nav{
 #juodkalnija {
     width: 100%;
     height: 300px;
-    background-image: url('../images/budva1.jpg'); 
+    background-image: url('../images/budva1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,22 +201,22 @@ nav{
 }
 
 #kainaJuodkalnija {
-    position: absolute; 
+    position: absolute;
     top:20px;
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauJuodkalnija {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -231,8 +231,8 @@ nav{
 
 .checked {
     color: orange;
-} 
-
+}
+/* mantas */
 img.responsive-img{
     height: 170px;
 }
@@ -248,7 +248,7 @@ img.responsive-img{
     position: absolute;
     top: 170px;
     left: 1px;
-    color: white; 
+    color: white;
     opacity: 1.0;
     background-color: blue;
 }
@@ -257,3 +257,8 @@ img.responsive-img{
     width: 100%;
 }
 
+a {
+ color: black;
+
+}
+/* mantas */
