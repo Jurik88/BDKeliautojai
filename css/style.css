@@ -13,7 +13,7 @@
     padding-left: 6px;
     margin-right: 6px;
     text-transform: uppercase;
-    line-height: 70px; 
+    line-height: 70px;
 }
 #headerContainer img{
     height: 70px;
@@ -38,7 +38,7 @@ body #dropdown1 a{
     top: 65px !important;
     opacity: 0.7 !important;
 }
-#dropdown2 a{
+body #dropdown2 a{
     font-size: 20px !important;
 }
 .brand-logo img{
@@ -81,6 +81,9 @@ footer.footerContainer {
 #footer2{
     border: 0px;
 }
+#pazintinesContainer .col{
+position: relative;
+}
 
 /*Lina*/
 .container {
@@ -97,8 +100,8 @@ footer.footerContainer {
 }
 
 #pirmas {
-    background-color: blue; 
-    padding: 0px;       
+    background-color: blue;
+    padding: 0px;
 }
 
 #antras {
@@ -112,14 +115,14 @@ footer.footerContainer {
 }
 
 #ketvirtas {
-    background-color: blue;     
+    background-color: blue;
     padding: 0px;
 }
 
 #cinqueTerre {
     width: 100%;
     height: 300px;
-    background-image: url('../images/cinqueTerre1.jpg'); 
+    background-image: url('../images/cinqueTerre1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,8 +135,8 @@ footer.footerContainer {
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauCT {
@@ -142,7 +145,7 @@ footer.footerContainer {
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -158,7 +161,7 @@ footer.footerContainer {
 #newYork {
     width: 100%;
     height: 300px;
-    background-image: url('../images/NYC1.jpg'); 
+    background-image: url('../images/NYC1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,17 +174,17 @@ footer.footerContainer {
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauNY {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -197,7 +200,7 @@ footer.footerContainer {
 #jungtiniaiArabuEmyratai {
     width: 100%;
     height: 300px;
-    background-image: url('../images/JAE1.jpg'); 
+    background-image: url('../images/JAE1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -205,22 +208,22 @@ footer.footerContainer {
 }
 
 #kainaJAE {
-    position: absolute; 
+    position: absolute;
     top:20px;
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauJAE {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -236,7 +239,7 @@ footer.footerContainer {
 #juodkalnija {
     width: 100%;
     height: 300px;
-    background-image: url('../images/budva1.jpg'); 
+    background-image: url('../images/budva1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -244,22 +247,22 @@ footer.footerContainer {
 }
 
 #kainaJuodkalnija {
-    position: absolute; 
+    position: absolute;
     top:20px;
     left: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
-    opacity: 0.8;    
+    color: white;
+    opacity: 0.8;
 }
 
 #daugiauJuodkalnija {
-    position: absolute; 
+    position: absolute;
     bottom:20px;
     right: 50px;
     background-color: royalblue;
     padding: 18px;
-    color: white; 
+    color: white;
     opacity: 0.8;
     cursor: pointer;
 }
@@ -274,7 +277,34 @@ footer.footerContainer {
 
 .checked {
     color: orange;
-} 
+}
+/* mantas */
+img.responsive-img{
+    height: 170px;
+}
 
 
 
+#travelCosts .col {
+    position: relative;
+}
+
+.travelPrice {
+
+    position: absolute;
+    top: 170px;
+    left: 1px;
+    color: white;
+    opacity: 1.0;
+    background-color: blue;
+}
+
+.travelWrapper {
+    width: 100%;
+}
+
+a {
+ color: black;
+
+}
+/* mantas */
