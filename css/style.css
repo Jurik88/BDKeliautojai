@@ -1,8 +1,4 @@
-/*Header*/
-/*#container{
-    width: 1250px;
-    margin: auto;
-}*/
+/*Jurijus*/
 #headerContainer{
     height: 70 px;
     width: 100%;
@@ -21,25 +17,72 @@
 }
 #headerContainer img{
     height: 70px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 nav{
-    background-color:rgba(91, 104, 121, 0.3);
+   background-color: white;
+   font-family: "Times New Roman", Times, serif;
+}
+nav ul a{
+    color:rgb(101, 163, 230) !important;
+    margin-right: 150px;
 }
 #dropdown1{
     top: 65px !important;
+    opacity: 0.7 !important; 
+}
+body #dropdown1 a{
+    font-size: 20px !important;
 }
 #dropdown2{
     top: 65px !important;
+    opacity: 0.7 !important;
+}
+#dropdown2 a{
+    font-size: 20px !important;
 }
 .brand-logo img{
-    width: 85px;
+    width: 75px;
+    margin-left: 50px;
 }
 #bar1 a{
     font-size: 23px !important;
 }
+#index-banner{
+    background-image: url("images/Fonas1.jpg"); 
+}
+#index-banner h1{
+    color: yellowgreen !important; 
+}
+/*footer*/
+footer.footerContainer {
+    margin: 0;
+    text-align: center;
+  }
+#footerMaps{
+    width: 150px; 
+    height: 150px;  
+}
+.footerContainer{
+    background-color: rgb(52, 122, 169)!important;
+}
+.footerContainer a, .footerContainer h6{
+    color: azure !important;
+}
+#footerdiv1{
+    float: right !important;
+}
+#footerdiv2{
+    float: left !important;
+}
+#footer1{
+    border: 0px;
+}
+#footer2{
+    border: 0px;
+}
 
-
+/*Lina*/
 .container {
     width: 100%;
 }
