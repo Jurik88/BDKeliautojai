@@ -1,6 +1,26 @@
 //Jurij pradzia 
 $(document).ready(function(){
   $('.parallax').parallax();
+
+  var kelionesKaina = parseInt($('#pirkinioKaina').text());
+  $('#galutineKaina').val(kelionesKaina);
+
+  lightbox.option({
+    'resizeDuration': 50,
+    'wrapAround': true,
+    'alwaysShowNavOnTouchDevices' : true,
+    'maxHeight' : 400,
+  });
+
+  $("#pasirinkimas").change(function() {
+    var pasirinktasSkaicius = this.value;
+    var kelionesKaina = parseInt($('#pirkinioKaina').text());
+    var galutineKaina = pasirinktasSkaicius * kelionesKaina;
+
+    $('#galutineKaina').val(galutineKaina);
+
+  });
+
 });
 
 //Page Scrolling to ID START
@@ -60,3 +80,6 @@ $('#footerdiv2').click(function(){
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 //Jurij pabaiga
+
+
+

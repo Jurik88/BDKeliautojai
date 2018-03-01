@@ -156,7 +156,7 @@ body .perejimoJuosta{
 }
 
 #akcijos {
-    background-color: aqua;
+    
     height: 150;
 }
 
@@ -369,3 +369,60 @@ a {
 
 }
 /* mantas */
+
+/* blinking akcijos */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+     color: red;
+}
+
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#pirmasCT {
+    height: 300px;
+    padding: 0px;
+    }
+  
+ #pic {
+    width:auto; 
+    height: 400px;  
+}
+
+#uzsakymas {
+    position: relative;
+    bottom:20px; 
+}
+    
