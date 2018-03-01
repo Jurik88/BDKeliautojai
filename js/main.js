@@ -53,14 +53,6 @@ $("#buttonContact").click(function() {
 });
 //Page Scrolling to ID END
 
-//Naujienlaiškis
-setTimeout(function(){ 
-  var conf = confirm ("Mielas lankytojau, dėkojame, kad lankotes mūsų svetainėje. Ar norėtumėte gauti mūsų naujienlaiškį su išskirtiniais pasiūlymais?"); 
-  if(conf == true) {
-
-  }
-}, 5000);
-
 //Jurij pabaiga
 
 
