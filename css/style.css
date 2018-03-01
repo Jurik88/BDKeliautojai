@@ -95,7 +95,7 @@ position: relative;
 }
 
 #akcijos {
-    background-color: aqua;
+    
     height: 150;
 }
 
@@ -309,6 +309,7 @@ a {
 }
 /* mantas */
 
+<<<<<<< HEAD
 #pirmasCT {
   
     background-color:white;
@@ -327,3 +328,56 @@ a {
      height: 400px;
     
      }
+=======
+/* blinking akcijos */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+     color: red;
+}
+
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#pirmasCT {
+    height: 300px;
+    padding: 0px;
+    }
+  
+ #pic {
+    width:auto; 
+    height: 400px;  
+}
+
+>>>>>>> 07dc0f5bace4488e2a371cc74e0d5b766148cc2f
