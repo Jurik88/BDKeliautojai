@@ -1,49 +1,63 @@
 /*Jurijus*/
+html{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
 #headerContainer{
     height: 70 px;
     width: 100%;
 }
 #headerContainer ul{
-    float: right;
+    float: left;
     margin: 0;
     margin-left: 30px;
 }
 #headerContainer ul li{
     display: inline;
-    padding-left: 6px;
-    margin-right: 6px;
+    padding-left: 0px;
+    margin-right: 0px;
     text-transform: uppercase;
-    line-height: 70px;
+    line-height: 65px;
 }
 #headerContainer img{
-    height: 70px;
-    margin-left: 50px;
+    height: 62px;
+    margin-left: 0px;
 }
 nav{
    background-color: white;
    font-family: "Times New Roman", Times, serif;
+   position: fixed;
+   top: 0 ;
+   z-index: 1;
+}
+#headerContainer{
+    padding-top: 65px;
 }
 nav ul a{
     color:rgb(101, 163, 230) !important;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 #dropdown1{
     top: 65px !important;
     opacity: 0.7 !important; 
 }
 body #dropdown1 a{
-    font-size: 20px !important;
+    font-size: 18px !important;
 }
 #dropdown2{
     top: 65px !important;
     opacity: 0.7 !important;
 }
 body #dropdown2 a{
-    font-size: 20px !important;
+    font-size: 18px !important;
+}
+.dropdown-content a{
+    color:rgb(101, 163, 230) !important;
 }
 .brand-logo img{
     width: 75px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 #bar1 a{
     font-size: 23px !important;
@@ -52,7 +66,13 @@ body #dropdown2 a{
     background-image: url("images/Fonas1.jpg"); 
 }
 #index-banner h1{
-    color: yellowgreen !important; 
+    color: yellowgreen !important;
+    background-color: rgba(62, 63, 58, 0.3);
+ 
+}
+body #perejimoJuosta{
+    border-left: 10px white;
+    border-right: 10px white;
 }
 /*footer*/
 footer.footerContainer {
@@ -64,30 +84,71 @@ footer.footerContainer {
     height: 150px;  
 }
 .footerContainer{
-    background-color: rgb(52, 122, 169)!important;
-}
-.footerContainer a, .footerContainer h6{
-    color: azure !important;
-}
-#footerdiv1{
-    float: right !important;
-}
-#footerdiv2{
-    float: left !important;
+    background-color: rgb(101, 163, 230)!important;
 }
 #footer1{
-    border: 0px;
+    border: 1px;
+    background-color: rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer1:hover{
+    background-color: rgba(232, 235, 222, 0.3)
 }
 #footer2{
-    border: 0px;
+    border: 1px;
+    background-color:  rgba(17, 17, 17, 0.3);
+    height: 70px;
+    cursor: pointer;
 }
+#footer2:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#footer3{
+    border: 1px;
+    background-color:  rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer3:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+
 #pazintinesContainer .col{
 position: relative;
+}
+#forma{
+    width: 600;
+}
+.row{
+    padding-top: 30px;
+    margin: 0 auto;
+}
+body .perejimoJuosta a{
+    color: darkslategray;
+    font-size: 21px;
+}
+body .perejimoJuosta{
+    width: 100%;
+    margin: auto;
+}
+#pranesimoContainer{
+    width: 35%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#orai{
+    width: 100%;
+}
+.orai{
+    width: 20%;
+    float: left;
+    margin-left: 10px;
 }
 
 /*Lina*/
 .container {
-    width: 100%;
+    width: 75%;
 }
 
 .col {
