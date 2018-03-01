@@ -416,7 +416,7 @@ a {
 }
 
 #pirmasCT {
-    height: 300px;
+    
     padding: 0px;
     }
   
@@ -427,6 +427,6 @@ a {
 
 #uzsakymas {
     position: relative;
-    bottom:20px; 
+    bottom:0px; 
 }
     
