@@ -53,7 +53,10 @@ $("#buttonContact").click(function() {
 });
 //Page Scrolling to ID END
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b1cf9bd41edb9c5a4df4919465abf1a3963077bd
 // maps
 
 $('#footerdiv2').click(function(){
