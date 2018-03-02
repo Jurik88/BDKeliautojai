@@ -53,6 +53,11 @@ $("#buttonContact").click(function() {
 });
 //Page Scrolling to ID END
 
+<<<<<<< HEAD
+=======
+//Naujienlaiškis
+
+>>>>>>> 04bbb49f7fe4eebabc0887c355b9574da9f210b6
 
 // maps
 

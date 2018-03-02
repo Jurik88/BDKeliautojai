@@ -138,6 +138,17 @@ body .perejimoJuosta{
     margin: auto;
 }
 
+<<<<<<< HEAD
+=======
+#ypatingiPasiulymai {
+    color: red;
+}
+#pranesimoContainer{
+    width: 35%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+>>>>>>> 04bbb49f7fe4eebabc0887c355b9574da9f210b6
 #orai{
     width: 100%;
 }
@@ -454,7 +465,7 @@ a {
 }
 
 #pirmasCT {
-    height: 300px;
+    
     padding: 0px;
     }
   
@@ -465,6 +476,6 @@ a {
 
 #uzsakymas {
     position: relative;
-    bottom:20px; 
+    bottom:0px; 
 }
     
