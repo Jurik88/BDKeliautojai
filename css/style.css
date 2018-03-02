@@ -156,6 +156,17 @@ body .perejimoJuosta{
     margin: auto;
 }
 
+<<<<<<< HEAD
+=======
+#ypatingiPasiulymai {
+    color: red;
+}
+#pranesimoContainer{
+    width: 35%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+>>>>>>> 91a4e59f5b1f73b099f3e26e54541e540810943e
 #orai{
     width: 100%;
 }
@@ -450,5 +461,15 @@ a {
    margin: auto;
     width: 55%;
     text-align: justify;
+}
+
+.videoKoment {
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.patarimai :hover {
+   color: violet; 
 }
     
