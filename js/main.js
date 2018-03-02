@@ -53,17 +53,6 @@ $("#buttonContact").click(function() {
 });
 //Page Scrolling to ID END
 
-//Naujienlaiškis
-setTimeout(function(){ 
-  var conf = confirm ("Mielas, lankytojau, dėkojame, kad lankotes mūsų svetainėje. Ar norėtumėte gauti mūsų naujienlaiškį su išskirtiniais pasiūlymais?"); 
-  if(conf == true) {
-    var elpastas;
-    elpastas = prompt("Iveskite savo el. pašto adresą:");
-  if (conf == true){
-    alert("Ačiū! Netrukus el. paštu gausite patvirtinimą apie naujienlaiškio gavimą =D ");
-  }
-  }
-}, 5000);
 
 // maps
 

@@ -11,12 +11,11 @@ html{
 #headerContainer ul{
     float: left;
     margin: 0;
-    margin-left: 30px;
 }
 #headerContainer ul li{
     display: inline;
-    padding-left: 0px;
-    margin-right: 0px;
+    padding-left: 6px;
+    margin-right: 6px;
     text-transform: uppercase;
     line-height: 65px;
 }
@@ -40,10 +39,11 @@ nav ul a{
 }
 #dropdown1{
     top: 65px !important;
-    opacity: 0.7 !important; 
+    opacity: 0.7 !important;   
 }
 body #dropdown1 a{
     font-size: 18px !important;
+    padding: 14px 0px;
 }
 #dropdown2{
     top: 65px !important;
@@ -51,6 +51,7 @@ body #dropdown1 a{
 }
 body #dropdown2 a{
     font-size: 18px !important;
+    padding: 14px 0px;
 }
 .dropdown-content a{
     color:rgb(101, 163, 230) !important;
@@ -66,13 +67,12 @@ body #dropdown2 a{
     background-image: url("images/Fonas1.jpg"); 
 }
 #index-banner h1{
-    color: yellowgreen !important;
-    background-color: rgba(62, 63, 58, 0.3);
+    color: rgb(114, 116, 38) !important;
+    background-color: rgba(62, 63, 58, 0.4);
  
 }
-body #perejimoJuosta{
-    border-left: 10px white;
-    border-right: 10px white;
+body #ypatingiJuosta{
+    border: 10px solid white;
 }
 /*footer*/
 footer.footerContainer {
@@ -113,15 +113,20 @@ footer.footerContainer {
 #footer3:hover{
     background-color: rgba(232, 235, 222, 0.3)
 }
+#kontaktaiID {
+    padding-top: 15px;
+    font-size: 23px !important;
+    text-align: left;
+}
+/*footer end*/
 
 #pazintinesContainer .col{
 position: relative;
 }
-#forma{
-    width: 600;
-}
+
 .row{
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     margin: 0 auto;
 }
 body .perejimoJuosta a{
@@ -132,19 +137,56 @@ body .perejimoJuosta{
     width: 100%;
     margin: auto;
 }
-#pranesimoContainer{
-    width: 35%;
-    padding-top: 30px;
-    margin: 0 auto;
-}
+
 #orai{
     width: 100%;
 }
 .orai{
     width: 20%;
     float: left;
-    margin-left: 10px;
+    margin: 20px;
 }
+/*tab blink*/
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+     color: red !important;
+}
+
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/*tab blink end*/
 
 /*Lina*/
 .container {
