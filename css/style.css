@@ -2,7 +2,9 @@
 html{
     font-family: "Verdana",sans-serif !important;
 }
-
+body {
+    min-width: 1120px;
+}
 
 #headerContainer{
     height: 70 px;
@@ -156,8 +158,6 @@ body .perejimoJuosta{
     margin: auto;
 }
 
-<<<<<<< HEAD
-=======
 #ypatingiPasiulymai {
     color: red;
 }
@@ -166,7 +166,6 @@ body .perejimoJuosta{
     padding-top: 30px;
     margin: 0 auto;
 }
->>>>>>> 91a4e59f5b1f73b099f3e26e54541e540810943e
 #orai{
     width: 100%;
 }

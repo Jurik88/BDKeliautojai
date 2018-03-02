@@ -67,6 +67,8 @@ $('#footerdiv2').click(function(){
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+
 //Jurij pabaiga
 
 

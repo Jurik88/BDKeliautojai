@@ -3,3 +3,9 @@
         width: 65px !important;
         height: 65px !important; 
 }
+.w3-col.m7{
+        width: 100% !important;
+}
+img{
+        vertical-align: 0 !important;
+}
