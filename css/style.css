@@ -1,49 +1,64 @@
 /*Jurijus*/
+html{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
 #headerContainer{
     height: 70 px;
     width: 100%;
 }
 #headerContainer ul{
-    float: right;
+    float: left;
     margin: 0;
-    margin-left: 30px;
 }
 #headerContainer ul li{
     display: inline;
     padding-left: 6px;
     margin-right: 6px;
     text-transform: uppercase;
-    line-height: 70px;
+    line-height: 65px;
 }
 #headerContainer img{
-    height: 70px;
-    margin-left: 50px;
+    height: 62px;
+    margin-left: 0px;
 }
 nav{
    background-color: white;
    font-family: "Times New Roman", Times, serif;
+   position: fixed;
+   top: 0 ;
+   z-index: 1;
+}
+#headerContainer{
+    padding-top: 65px;
 }
 nav ul a{
     color:rgb(101, 163, 230) !important;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 #dropdown1{
     top: 65px !important;
-    opacity: 0.7 !important; 
+    opacity: 0.7 !important;   
 }
 body #dropdown1 a{
-    font-size: 20px !important;
+    font-size: 18px !important;
+    padding: 14px 0px;
 }
 #dropdown2{
     top: 65px !important;
     opacity: 0.7 !important;
 }
 body #dropdown2 a{
-    font-size: 20px !important;
+    font-size: 18px !important;
+    padding: 14px 0px;
+}
+.dropdown-content a{
+    color:rgb(101, 163, 230) !important;
 }
 .brand-logo img{
     width: 75px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 #bar1 a{
     font-size: 23px !important;
@@ -52,7 +67,12 @@ body #dropdown2 a{
     background-image: url("images/Fonas1.jpg"); 
 }
 #index-banner h1{
-    color: yellowgreen !important; 
+    color: rgb(114, 116, 38) !important;
+    background-color: rgba(62, 63, 58, 0.4);
+ 
+}
+body #ypatingiJuosta{
+    border: 10px solid white;
 }
 /*footer*/
 footer.footerContainer {
@@ -64,30 +84,124 @@ footer.footerContainer {
     height: 150px;  
 }
 .footerContainer{
-    background-color: rgb(52, 122, 169)!important;
-}
-.footerContainer a, .footerContainer h6{
-    color: azure !important;
-}
-#footerdiv1{
-    float: right !important;
-}
-#footerdiv2{
-    float: left !important;
+    background-color: rgb(101, 163, 230)!important;
 }
 #footer1{
-    border: 0px;
+    border: 1px;
+    background-color: rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer1:hover{
+    background-color: rgba(232, 235, 222, 0.3)
 }
 #footer2{
-    border: 0px;
+    border: 1px;
+    background-color:  rgba(17, 17, 17, 0.3);
+    height: 70px;
+    cursor: pointer;
 }
+#footer2:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#footer3{
+    border: 1px;
+    background-color:  rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer3:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#kontaktaiID {
+    padding-top: 15px;
+    font-size: 23px !important;
+    text-align: left;
+}
+/*footer end*/
+
 #pazintinesContainer .col{
 position: relative;
 }
 
+.row{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+body .perejimoJuosta a{
+    color: darkslategray;
+    font-size: 21px;
+}
+body .perejimoJuosta{
+    width: 100%;
+    margin: auto;
+}
+
+<<<<<<< HEAD
+=======
+#ypatingiPasiulymai {
+    color: red;
+}
+#pranesimoContainer{
+    width: 35%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+>>>>>>> 04bbb49f7fe4eebabc0887c355b9574da9f210b6
+#orai{
+    width: 100%;
+}
+.orai{
+    width: 20%;
+    float: left;
+    margin: 20px;
+}
+/*tab blink*/
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+     color: red !important;
+}
+
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/*tab blink end*/
+
 /*Lina*/
 .container {
-    width: 100%;
+    width: 75%;
 }
 
 .col {
@@ -309,26 +423,6 @@ a {
 }
 /* mantas */
 
-<<<<<<< HEAD
-#pirmasCT {
-  
-    background-color:white;
-    
-    height: 300px;
-    
-    padding: 0px;
-  
-  }
-  
-  
-  #pic {
-    
-     width:auto; 
-    
-     height: 400px;
-    
-     }
-=======
 /* blinking akcijos */
 .blink {
 	-webkit-animation: blink .75s linear infinite;
@@ -371,7 +465,7 @@ a {
 }
 
 #pirmasCT {
-    height: 300px;
+    
     padding: 0px;
     }
   
@@ -380,4 +474,8 @@ a {
     height: 400px;  
 }
 
->>>>>>> 07dc0f5bace4488e2a371cc74e0d5b766148cc2f
+#uzsakymas {
+    position: relative;
+    bottom:0px; 
+}
+    
