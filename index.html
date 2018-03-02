@@ -11,6 +11,20 @@
     <style type "text/css"></style>
     <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
 
+    <!-- Naujienlaiškis-->
+    <script>
+      setTimeout(function(){ 
+            var conf = confirm ("Mielas, lankytojau, dėkojame, kad lankotes mūsų svetainėje. Ar norėtumėte gauti mūsų naujienlaiškį su išskirtiniais pasiūlymais?"); 
+            if(conf == true) {
+              var elpastas;
+              elpastas = prompt("Iveskite savo el. pašto adresą:");
+            if (conf == true){
+              alert("Ačiū! Netrukus el. paštu gausite patvirtinimą apie naujienlaiškio gavimą =D ");
+            }
+            }
+          }, 5000);
+    </script>
+
   </head>
   <body>
      <header id="headerContainer">
@@ -42,7 +56,7 @@
         <div class="section no-pad-bot">
           <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2"><p>Keliauk su Travel time ir pamatyk pasaulį kitomis spalvomis!!!</p></h1>
+            <h1 class="header center teal-text text-lighten-2"><p>Keliauk su „Travel time“ ir pamatyk pasaulį kitomis spalvomis!!!</p></h1>
           </div>
         </div>
         <div class="parallax"><img src="images/Fonas1.jpg"></div>
@@ -53,21 +67,23 @@
             <div class="row">
               <div id="orai" class="col s12">
                 <div class="orai">
-                    <a target="_blank" href="http://www.booked.net/weather/rome-18087"><img src="https://w.bookcdn.com/weather/picture/2_18087_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
+                    <a target="_blank" href="http://www.booked.net/weather/rome-18087"><img class="oruNuotrauka" src="https://w.bookcdn.com/weather/picture/2_18087_1_1_009fde_200_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=43006"  alt="booked.net"/></a>
+                  </div>
+                <div class="orai">
+                    <a target="_blank" href="http://www.booked.net/weather/new-york-18103"><img class="oruNuotrauka" src="https://w.bookcdn.com/weather/picture/2_18103_1_1_009fde_200_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=43006"  alt="booked.net"/></a>
                 </div>
                 <div class="orai">
-                    <a target="_blank" href="http://www.booked.net/weather/new-york-18103"><img src="https://w.bookcdn.com/weather/picture/2_18103_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
+                    <a target="_blank" href="http://www.booked.net/weather/bangkok-18061"><img class="oruNuotrauka" src="https://w.bookcdn.com/weather/picture/2_18061_1_1_009fde_200_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=43006"  alt="booked.net"/></a>
                 </div>
                 <div class="orai">
-                    <a target="_blank" href="http://www.booked.net/weather/bangkok-18061"><img src="https://w.bookcdn.com/weather/picture/2_18061_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a>
-                </div>
-                <div class="orai">
-                    <a target="_blank" href="http://www.booked.net/weather/mexico-city-18199"><img src="https://w.bookcdn.com/weather/picture/2_18199_1_1_017cdc_256_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=32216"  alt="booked.net"/></a> 
+                    <a target="_blank" href="http://www.booked.net/weather/mexico-city-18199"><img img class="oruNuotrauka" src="https://w.bookcdn.com/weather/picture/2_18199_1_1_009fde_200_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=43006"  alt="booked.net"/></a>
                 </div>            
               </div>
               
+
               <div class="perejimoJuosta" id="perejimoJuosta" >
-                <a  class="tab blink" id="ypatingiPasiulymai"><h4>Ypatingi pasiūlymai Jums!</h4></a>  
+                <a  class="tab blink" id="ypatingiPasiulymai">Ypatingi pasiūlymai Jums!</a>  
+
                 <hr>
               </div>
 
@@ -317,6 +333,9 @@
      </main>
      <footer id="footerContainer" class="footerContainer">
       <div class="container" id="kontaktaiContainer">
+        <div class="s12" id="kontaktaiID">
+          <a>Kontaktai:</a>
+        </div>
         <div class="row" id="row1">
           <div id="footer1" class="col s4">
             <div id="footerdiv1">
@@ -345,43 +364,12 @@
         </div>
       </div>
       </div>
-      <div>
-        <div id="pranesimoContainer" >
-            <form id="forma">
-                <div class="w3-section">
-                  <label>Vardas</label>
-                  <input class="w3-input w3-border" type="text" name="Name" required>
-                </div>
-                <div class="w3-section">
-                  <label>El. paštas</label>
-                  <input class="w3-input w3-border" type="text" name="Email" required>
-                </div>
-                <div class="w3-section">
-                  <label>Pranešimo tekstas</label>
-                  <input class="w3-input w3-border" type="text" name="Message" required>
-                </div>
-                <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="material-icons">send</i>  Išsiųsti</button>
-              </form>
-        </div>
-      </div>
      </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      //Naujienlaiškis
-      setTimeout(function(){ 
-  var conf = confirm ("Mielas, lankytojau, dėkojame, kad lankotes mūsų svetainėje. Ar norėtumėte gauti mūsų naujienlaiškį su išskirtiniais pasiūlymais?"); 
-  if(conf == true) {
-    var elpastas;
-    elpastas = prompt("Iveskite savo el. pašto adresą:");
-  if (conf == true){
-    alert("Ačiū! Netrukus el. paštu gausite patvirtinimą apie naujienlaiškio gavimą =D ");
-  }
-  }
-}, 5000);
-    </script>
+    
      <script src="lightbox2-master/dist/js/lightbox.js"></script>
   </body>
 </html>

@@ -53,9 +53,6 @@ $("#buttonContact").click(function() {
 });
 //Page Scrolling to ID END
 
-//Naujienlaiškis
-
-
 // maps
 
 $('#footerdiv2').click(function(){
