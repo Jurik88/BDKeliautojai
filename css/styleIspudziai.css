@@ -1,0 +1,119 @@
+/*Jurijus*/
+html{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+#headerContainer{
+    height: 70 px;
+    width: 100%;
+}
+#headerContainer ul{
+    float: left;
+    margin: 0;
+}
+#headerContainer ul li{
+    display: inline;
+    padding-left: 6px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    line-height: 65px;
+}
+#headerContainer img{
+    height: 62px;
+    margin-left: 0px;
+}
+nav{
+   background-color: white;
+   font-family: "Times New Roman", Times, serif;
+   position: fixed;
+   top: 0 ;
+   z-index: 1;
+}
+#headerContainer{
+    padding-top: 65px;
+}
+nav ul a{
+    color:rgb(101, 163, 230) !important;
+    margin-right: 70px;
+}
+#dropdown1{
+    top: 65px !important;
+    opacity: 0.7 !important;   
+}
+body #dropdown1 a{
+    font-size: 18px !important;
+    padding: 14px 0px;
+}
+#dropdown2{
+    top: 65px !important;
+    opacity: 0.7 !important;
+}
+body #dropdown2 a{
+    font-size: 18px !important;
+    padding: 14px 0px;
+}
+.dropdown-content a{
+    color:rgb(101, 163, 230) !important;
+}
+.brand-logo img{
+    width: 75px;
+    margin-left: 20px;
+}
+#bar1 a{
+    font-size: 23px !important;
+}
+.col{
+    width: 75%;
+}
+.row{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+/*footer*/
+footer.footerContainer {
+    margin: 0;
+    text-align: center;
+  }
+#footerMaps{
+    width: 150px; 
+    height: 150px;  
+}
+.footerContainer{
+    background-color: rgb(101, 163, 230)!important;
+}
+#footer1{
+    border: 1px;
+    background-color: rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer1:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#footer2{
+    border: 1px;
+    background-color:  rgba(17, 17, 17, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer2:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#footer3{
+    border: 1px;
+    background-color:  rgba(62, 63, 58, 0.3);
+    height: 70px;
+    cursor: pointer;
+}
+#footer3:hover{
+    background-color: rgba(232, 235, 222, 0.3)
+}
+#kontaktaiID {
+    padding-top: 15px;
+    font-size: 23px !important;
+    text-align: left;
+}
+/*footer end*/

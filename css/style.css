@@ -435,4 +435,14 @@ a {
     width: 55%;
     text-align: justify;
 }
+
+.videoKoment {
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.patarimai :hover {
+   color: violet; 
+}
     
