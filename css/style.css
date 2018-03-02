@@ -1,6 +1,6 @@
 /*Jurijus*/
 html{
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Verdana",sans-serif !important;
 }
 
 
@@ -11,12 +11,11 @@ html{
 #headerContainer ul{
     float: left;
     margin: 0;
-    margin-left: 30px;
 }
 #headerContainer ul li{
     display: inline;
-    padding-left: 0px;
-    margin-right: 0px;
+    padding-left: 6px;
+    margin-right: 6px;
     text-transform: uppercase;
     line-height: 65px;
 }
@@ -44,6 +43,7 @@ nav ul a{
 }
 body #dropdown1 a{
     font-size: 18px !important;
+    padding: 14px 0px;
 }
 #dropdown2{
     top: 65px !important;
@@ -51,6 +51,7 @@ body #dropdown1 a{
 }
 body #dropdown2 a{
     font-size: 18px !important;
+    padding: 14px 0px;
 }
 .dropdown-content a{
     color:rgb(101, 163, 230) !important;
@@ -61,6 +62,11 @@ body #dropdown2 a{
 }
 #bar1 a{
     font-size: 23px !important;
+}
+.row{
+    padding-top: 5px !important;
+    padding-bottom: 30px;
+    margin: 0 auto;
 }
 #index-banner{
     background-image: url("images/Fonas1.jpg"); 
@@ -73,6 +79,9 @@ body #dropdown2 a{
 body #perejimoJuosta{
     border-left: 10px white;
     border-right: 10px white;
+}
+#ypatingiJuosta{
+    border: 10px solid white;
 }
 /*footer*/
 footer.footerContainer {
@@ -113,6 +122,20 @@ footer.footerContainer {
 #footer3:hover{
     background-color: rgba(232, 235, 222, 0.3)
 }
+#kontaktaiID {
+    padding-top: 15px;
+    font-size: 23px !important;
+    text-align: left;
+}
+.ypatingiContainer{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.pazintinesContainer{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+/*footer end*/
 
 #pazintinesContainer .col{
 position: relative;
@@ -133,25 +156,15 @@ body .perejimoJuosta{
     margin: auto;
 }
 
-<<<<<<< HEAD
-=======
-#ypatingiPasiulymai {
-    color: red;
-}
-#pranesimoContainer{
-    width: 35%;
-    padding-top: 30px;
-    margin: 0 auto;
-}
->>>>>>> b1cf9bd41edb9c5a4df4919465abf1a3963077bd
 #orai{
     width: 100%;
 }
 .orai{
     width: 20%;
     float: left;
-    margin-left: 10px;
+    margin-left: 40px;
 }
+
 
 /*Lina*/
 .container {
